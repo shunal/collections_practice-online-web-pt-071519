@@ -52,8 +52,9 @@ def sum_array(array)
 end 
 
 def add_s(array)
+      array[1] = array[1]
   array.each do |string|
-     array[1] = array[1]
+ 
     string << "s"
   
   end
