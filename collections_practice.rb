@@ -53,6 +53,6 @@ end
 
 def add_s(array)
   array.each do |string|
-    string + "s"
+    string[-1] = "s"
   end
 end
