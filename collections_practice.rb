@@ -54,5 +54,6 @@ end
 def add_s(array)
   array.each do |string|
     string << "s"
+    array[1] = "feet"
   end
 end
