@@ -52,7 +52,9 @@ def sum_array(array)
 end 
 
 def add_s(array)
+  second_element = array[1]
   array.each do |string|
     string + "s"
+    second_element
   end
 end
