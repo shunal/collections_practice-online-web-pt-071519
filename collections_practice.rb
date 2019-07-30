@@ -43,6 +43,6 @@ end
 
 def find_a(array)
   array.find do |letter|
-    array.start_with = "a"
+    array.start = "a"
   end
 end
